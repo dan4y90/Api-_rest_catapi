@@ -1,0 +1,108 @@
+Body{background:linear-gradient(to left bottom, #06ff06, #00ff90, #00ffd5, #00f8fa, #98edff);}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to left bottom, #0652ff, #0086ff, #00aeff, #00d0ff, #98edff);
+  border-radius: 10px;
+}
+
+
+#btn1 {
+  margin: 5px;
+  padding: 4px;
+  border-radius: 10px;
+  margin:85px;
+  margin-left: 80px;
+
+  background-image: linear-gradient(to left bottom, #f8f8f8, #ccc1f9, #a08af5, #7152ed, #3100e1);}
+
+
+#btn2 {
+  margin: 5px;
+  padding: 4px;
+  border-radius: 10px;
+  margin:85px;
+  margin-left: 80px;
+ 
+background-image: linear-gradient(to left bottom, #f8f8f8, #ccc1f9, #a08af5, #7152ed, #3100e1);
+}
+
+#btn3{
+  margin: 5px;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: white;
+
+}
+
+
+
+
+  #img1 {
+    
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(5, 5, 5, 0.952);
+  }
+  
+  #img2 {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(5, 5, 5, 0.952);
+  }
+  
+
+.main-navigation {
+    background-image: linear-gradient( #050700, #72a926, #0509df, #418d08, #45c003);
+    border-radius: 10px;
+    
+  } 
+.main-navigation li {
+    margin: 0 21rem;
+    border-radius: 10px;
+  }
+.main-navigation li a {
+    color: #5cfc3c;
+    font-size: 2.0rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 30px;
+  }
+.main-navigation li a:hover {
+  color: #00eeff;}
+
+@media screen and (max-width: 768px) {
+.main-navigation {
+      flex-direction: column;
+    }
+  
+    .main-navigation li {
+      margin: 1rem 0;
+    }
+  }
+.Galeria {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    text-shadow: 1px 1px 2px #00ff40;
+  }
+
+  .Gal {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    text-shadow: 1px 1px 2px #00ff40;
+  }
