@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="prox.css"> 
+</head>
+
+
+
+<body>
+    <nav class="main-navigation">
+        <ul>
+          <li><a href="https://thecatapi.com/#pricing">PAGE_API_THE_CAT_API</a></li>
+          <li><a href="">API_REST_con_JavaScript</a></li>
+          <li><a href="https://daffodil-apple-ad0.notion.site/Portafolio-web-developer-eb2515c9876b40148654860b9a5214f2">PORTAFOLIO WEB EN NOTION.COM</a></li>          
+          <li><a href="">Contacto:dandv_code@outlook.es</a></li>
+        </ul>
+   </nav>
+    
+      <h1 class="Galeria">Michis_APP_1.0.0</h1>
+
+
+    <span id="error"></span>
+  
+    <section id="randomMichis">
+        <h1 class="Gal">Random Michis </h1>
+  
+      <article>
+        <img id="img1" width="350" alt="Foto gatito aleatorio">
+        <button id="btn1">
+          Guardar michi en favoritos
+        </button>
+      </article>
+  
+
+      <article>
+        <img id="img2" width="350" alt="Foto gatito aleatorio">
+        <button id="btn2">
+          Guardar michi en favoritos
+        </button>
+      </article>
+      
+  
+      <button id="btn3"onclick="loadRandomMichis()">RELOAD MICHIS</button>
+    </section>
+    
+
+    <section id="favoriteMichis">
+      <h2>Michis favoritos</h2>
+  
+      <article>
+        <img id="img1" width="150" alt="Foto gatito aleatorio">
+        <button>Sacar al michi de favoritos</button>
+      </article>
+    </section>
+  
+    <script src="./main.js"></script>
+</body>
+</html>
